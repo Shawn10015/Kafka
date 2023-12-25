@@ -30,8 +30,8 @@ class get_data:
         new_row = pd.DataFrame([message_data])
         self.df = pd.concat([self.df, new_row], ignore_index=True)
 
-api_id = '20797584'
-api_hash = 'f032d90eca8262ffd72fdbf6091a0a22'
+api_id = 'api_id'
+api_hash = 'api_hash'
 #ningad1, ID: 2116583573, for test
 #bbcrussian, ID: 1003921752
 #rbc_news, ID: 1099860397
